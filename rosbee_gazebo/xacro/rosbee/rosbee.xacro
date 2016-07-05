@@ -10,7 +10,7 @@
   
   <!-- Laser  -->
   <xacro:include filename="$(find rosbee_gazebo)/xacro/laser/hokuyo.xacro"/>
-  <xacro:laser name="front_laser" parent="chassis" xyz="0 0 0.181" rpy="0 0 0" meshes="package://rosbee_gazebo/meshes/laser"/>
+  <xacro:laser name="front_laser" parent="chassis" xyz="0 0 0.205" rpy="0 0 0" meshes="package://rosbee_gazebo/meshes/laser"/>
    
   
   <!-- GPU Laser
